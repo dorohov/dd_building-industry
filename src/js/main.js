@@ -2,7 +2,5 @@
     "use strict"
     $(function() {
 
-        
-
     })
 })(jQuery);
