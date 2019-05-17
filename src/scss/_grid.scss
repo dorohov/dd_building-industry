@@ -31,19 +31,22 @@
     }
 }
 
-.btn {
-   display: inline-block;
-   outline: none;
-   background: #EA8B00;
-   color: #fff;
-   font-size: 14px;
-   text-transform: uppercase;
-   font-weight: bold;
-   padding: 15px 40px;
-   border: 3px solid #ea8b00;
-   transition: .25s all ease;
-   &:hover {
-       color: #EA8B00;
-       background: transparent;
-   } 
+.__dd {
+    .btn {
+        display: inline-block;
+        outline: none;
+        background: #EA8B00;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 15px 40px;
+        border: 3px solid #ea8b00;
+        transition: .25s all ease;
+        font-family: 'Open Sans' !important;
+        &:hover {
+            color: #EA8B00;
+            background: transparent;
+        } 
+     }
 }
